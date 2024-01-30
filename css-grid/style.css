@@ -63,3 +63,33 @@ body {
     grid-column: one/item3;
     grid-row: 1/span 2;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+"header header header"
+"main main aside"
+"footer footer footer";
+    /*    Use dot (.) to make empty space*/
+}
+
+.element {
+    border: 1px solid #000;
+    height: 200px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}
