@@ -1,0 +1,14 @@
+.text {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+img {
+    padding: 20px;
+}
+
+.box {
+    border: 3px solid #ccc;
+    margin-bottom: 50px;
+}
