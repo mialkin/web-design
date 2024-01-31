@@ -26,7 +26,7 @@ img {
     /*justify-content: space-around;*/
     /*justify-content: space-evenly;*/
 
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     /*flex-wrap: wrap-reverse;*/
 
     /*align-items: flex-start;*/
@@ -37,6 +37,8 @@ img {
 .text-4 {
     align-self: center;
     order: -1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-3 {
