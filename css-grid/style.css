@@ -25,9 +25,12 @@ body {
     /*grid-template-columns: [one] 400px [two] 400px [item3] 400px [item4];*/
     grid-template-columns: 400px 400px 400px minmax(200px, 500px);
     grid-template-rows: 100px 200px 150px;
+    /*grid-template: 100px 200px 150px / 400px 400px 400px minmax(200px, 500px);*/
     /*justify-items: start;*/
     /*justify-items: start;*/
     /*align-items: center;*/
+    /*place-items: center;*/
+    /*place-items: end start;*/
     /*grid-auto-rows: 75px;*/
     /*grid-auto-rows: 75px 100px;*/
     /*grid-auto-columns: 100px;*/
