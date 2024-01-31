@@ -24,6 +24,13 @@ body {
     /*grid-template-columns: repeat(3, 400px);*/
     grid-template-columns: [one] 400px [two] 400px [item3] 400px [item4];
     grid-template-rows: 100px 200px 150px;
+    /*grid-auto-rows: 75px;*/
+    /*grid-auto-rows: 75px 100px;*/
+    /*grid-auto-columns: 100px;*/
+    /*grid-auto-flow: row;*/
+    /*grid-auto-flow: column;*/
+    grid-auto-flow: dense;
+    /*grid-auto-flow: column dense;*/
     /*row-gap: 20px;*/
     /*column-gap: 40px;*/
     /*gap: 40px 20px;*/
@@ -62,6 +69,14 @@ body {
 
     grid-column: one/item3;
     grid-row: 1/span 2;
+}
+
+.item-2 {
+    grid-column: span 2;
+}
+
+.item-7 {
+    grid-column: span 2/4;
 }
 
 .wrapper {
