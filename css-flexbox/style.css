@@ -32,6 +32,13 @@ img {
     /*align-items: flex-start;*/
     /*align-items: center;*/
     /*align-items: baseline;*/
+}
 
- 
+.text-4 {
+    align-self: center;
+    order: -1;
+}
+
+.text-3 {
+    order: -2;
 }
