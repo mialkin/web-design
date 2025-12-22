@@ -43,3 +43,7 @@ body {
 .panel.open {
     transform: translateX(0);
 }
+
+body.no-scroll {
+    overflow: hidden;
+}
